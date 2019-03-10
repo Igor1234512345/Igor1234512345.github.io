@@ -1,0 +1,27 @@
+#mainNav {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-weight: 700;
+            font-family: Montserrat;
+        }
+
+        .bg-secondary {
+            background-color: #2b2e4a !important;
+        }
+
+        .bg-purple {
+            background-color: #22264b !important;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .img3 {
+            padding: 1px;
+        }
+
+       
