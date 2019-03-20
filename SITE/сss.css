@@ -1,0 +1,2141 @@
+  <style>
+      * {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	font-family: "Georgia";
+}
+
+a,
+a:hover {
+	color: #fff;
+}
+
+header {
+	/*background: url(./img/img.jpg);*/
+	background-position: center;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+header nav {
+	position: absolute;
+	background: #ca0219;
+	opacity: 0.88;
+	font-size: 16px;
+	z-index: 3;
+}
+
+header nav #logo img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 0px;
+	z-index: 1;
+	height:120px;
+	width: 90px;
+}
+
+header nav .menu {
+	display: none;
+	cursor: pointer;
+	position: relative;
+	top: -25px;
+	width: 30px;
+}
+
+header nav .menu a{
+	margin-left: 0px;
+}
+
+header nav .header-link {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+header nav .header-link a {
+	margin-right: 35px;
+}
+
+header nav .header-link .fab,
+header nav .header-link .fas {
+	position: relative;
+	top: 12px;
+	margin-right: 12px;
+}
+
+header nav #address,
+header nav .skype {
+	padding-right: 35px;
+	margin-right: 25px;
+
+}
+
+header nav .otherPhone {
+	position: relative;
+	left: 25px;
+}
+
+header nav .footer-link {
+
+	border-top: 1px solid #dc6f7f;
+	border-width: 1px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	
+}
+
+header nav .footer-link a {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+header nav .iconHide {
+	display: none;
+}
+
+header h1 {
+	font-size: 313%;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+header span {
+	text-align: center;
+	font-size: 37px;
+	margin-bottom: 70px;
+}
+
+header .active {
+	position: relative;
+	top: -5px;
+	height: 25px !important;
+	width: 25px !important;
+	background: #fff;
+	border: 1px solid #fff;
+	border: 1px solid #fff;
+	border-radius: 100%;
+}
+
+header .circle {
+	height: 13px;
+	width: 13px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+
+header .circle:hover {
+	background: #fff;
+	height: 13px;
+	width: 13px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+
+
+.carousel h1 {
+	position: relative;
+	top: -150px;
+	position: relative;
+	font-size: 250%;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.carousel p {
+    position: relative;
+	top: -160px;
+	font-size: 20px;
+}
+
+.carousel .circle {
+	height: 13px;
+	width: 13px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	margin-right: 8px;
+}
+
+.carousel .circle .active {
+	position: relative;
+	top: -5px;
+	height: 25px !important;
+	width: 25px !important;
+	border: 1px solid #fff;
+	border: 1px solid #fff;
+	border-radius: 100%;
+}
+
+.carousel li {
+	position: relative;
+    top: -110px;
+}
+
+.content {
+	padding-top: 100px;
+}
+
+.content1,
+.content2 {
+	display: none;
+}
+
+.content h2 {
+	font-size: 41px;
+	margin-bottom: 25px;
+}
+
+.content .card {
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+
+.content .card .card-body {
+	box-shadow:
+	3px 3px 10px #efefef,
+	-3px 3px 10px #efefef;
+}
+
+.content .card .top {
+	position: absolute;
+	background: #252e37;
+	color: #fff;
+	background: transparent\9;  
+    background:rgba(0,0,0,0.38);
+}
+
+.content .card h5 {
+	font-size: 15px;
+	margin: 0;
+	position: 0;
+}
+
+.content .card h5 .w-100 {
+	border-bottom: 1px solid #000;
+}
+
+.content .card span {
+	font-size: 13px;
+	padding-top: 10px !important;
+}
+
+.content .card .card-text {
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+.content .card button {
+	position: relative;
+	top: -27px;
+    left: 164px;
+	margin: 0;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.content .card button:hover {
+	background: #cf1327;
+}
+
+.content .card #price {
+	position: absolute;
+    top: 240px;
+    left: 175px;
+}
+
+.content .card #price .picPrice {
+	width: 130px;
+}
+
+.content .card #price .fire {
+	position: relative;
+	top: -30px;
+    left: 25px;
+}
+
+.content .card #price .text {
+	position: relative;
+	font-size: 17px;
+	color: #fff;
+	top: -58px;
+    left: 55px;
+}
+
+.content #settings h3 {
+	font-size: 17px;
+}
+
+.content span {
+	margin-bottom: 90px;
+}
+
+.content button {
+	margin-top: 50px;
+	margin-bottom: 65px;
+}
+
+.content button:hover {
+	background: #cf1327;
+}
+
+.content button img {
+	position: relative;
+	top: -2px;
+}
+
+footer {
+		
+
+	background: url("C:/Users/ייי/Desktop/SITE/Dark.png");
+	background-size: cover;
+	padding-top: 65px;
+	height: 542px;
+}
+
+
+footer .container-fluid {
+	position: absolute !important;
+	color: #fff;
+}
+
+footer .menu {
+	padding-top: 44px;
+	padding-bottom: 50px;
+	border: 1px solid #fff;
+	margin-right: 25px;
+}
+
+footer .menu a {
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+
+footer .contact {
+	padding-top: 44px;
+	/*padding-bottom: 50px;*/
+	border: 1px solid #fff;
+	margin-right: 25px;
+}
+
+footer .contact .fab,
+footer .contact .fas {
+	position: relative;
+	top: 13px;
+	margin-right: 10px;
+}
+
+footer .contact .address {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+footer .contact .skype {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+footer .contact .director {
+	border-top: 1px solid #393e42;
+	font-size: 16px;
+}
+
+footer .contact .director img {
+    position: relative;
+    top: 10px;
+    border: 1px solid #fff;
+    padding: 4px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+footer .contact .director span.name {
+    position: relative;
+    top: -20px;
+    left: 85px;
+}
+
+footer .social {
+	text-align: center;
+	padding-top: 60px;
+	border: 1px solid #fff;
+}
+
+footer .social .title {
+	text-transform: uppercase;
+	margin-bottom: 45px;
+	font-size: 18px;
+}
+
+footer .social img {
+	border-radius: 3px;
+	margin-top: 45px;
+	margin-bottom: 55px;
+	margin-right: 8px;
+}
+
+footer .copyright {
+	margin-top: 25px;
+	margin-bottom: 12px;
+}
+
+@media (max-width: 1288px) and (min-width: 1214px) {
+	.carousel-item img {
+    	height: 600px;
+	}
+}
+
+@media (max-width: 1214px) and (min-width: 1143px) {
+	.carousel-item img {
+    	height: 700px;
+	}
+}
+
+@media (max-width: 1143px) and (min-width: 1103px) {
+	.carousel-item img {
+    	height: 700px;
+	}
+
+	header nav .footer-link a {
+    	margin-right: 20px;
+	}
+}
+
+@media (max-width: 1103px) and (min-width: 1063px) {
+	.carousel-item img {
+    	height: 700px;
+	}
+
+	header nav .footer-link a {
+    	margin-right: 15px;
+	}
+}
+
+@media (max-width: 1063px) and (min-width: 1023px) {
+	.carousel-item img {
+    	height: 700px;
+	}
+
+	header nav .footer-link a {
+    	margin-right: 10px;
+	}
+
+	header nav #address, header nav .skype {
+	    padding-right: 10px;
+	    margin-right: 10px;
+	 
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 1007px) {
+	.carousel-item img {
+    	height: 700px;
+	}
+
+	header nav .footer-link a {
+    	margin-right: 8px;
+	}
+
+	header nav #address, header nav .skype {
+	    padding-right: 10px;
+	    margin-right: 10px;
+	  
+	}
+}
+
+@media (max-width: 1007px) and (min-width: 989px) {
+	.carousel-item img {
+    	height: 700px;
+	}
+
+	header nav .footer-link a {
+    	margin-right: 8px;
+	}
+
+	header nav #logo img {
+	    height: 60px;
+	}
+
+	header nav #address, header nav .skype {
+	    padding-right: 10px;
+	    margin-right: 10px;
+	
+	}
+}
+
+@media (max-width: 989px) and (min-width: 965px) {
+	.carousel-item img {
+    	height: 650px;
+	}
+
+	header nav .footer-link a {
+    	margin-right: 6px;
+	}
+
+	header nav #logo img {
+	    height: 60px;
+	}
+
+	header nav #address, header nav .skype {
+	    padding-right: 10px;
+	    margin-right: 10px;
+	  
+	}
+
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav .menu {
+		display: block;
+		cursor: pointer;
+		position: relative;
+    	top: -10px;
+    	width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		background: #000;
+	}
+
+	.carousel h1 {
+	    top: -160px;
+	    font-size: 190%;
+	}
+
+	.carousel p {
+	    font-size: 15px;
+	}
+}
+
+@media (max-width: 965px) and (min-width: 940px) {
+	.carousel-item img {
+    	height: 650px;
+	}
+
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav .menu {
+		display: block;
+		cursor: pointer;
+		position: relative;
+    	top: -30px;
+    	width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		background: #000;
+	}
+
+	header nav #logo img {
+	    height: 50px;
+	}
+
+	header nav #address, header nav .skype {
+	    padding-right: 10px;
+	    margin-right: 10px;
+	  
+	}
+
+	.carousel h1 {
+	    top: -160px;
+	    font-size: 190%;
+	}
+
+	.carousel p {
+	    font-size: 15px;
+	}
+}
+
+@media (max-width: 939px) and (min-width: 870px) {
+	.carousel-item img {
+    	height: 650px;
+	}
+
+	header nav {
+	    font-size: 13px;
+	}
+
+	header nav #address, header nav .skype {
+	    padding-right: 5px;
+	    margin-right: 5px;
+	 
+	}
+
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav .menu {
+		display: block;
+		cursor: pointer;
+		position: relative;
+    	top: -30px;
+    	width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		background: #000;
+	}
+}
+
+@media (max-width: 870px) and (min-width: 842px) {
+
+	header nav {
+	    font-size: 13px;
+	}
+
+	header nav .header-link .fab, header nav .header-link .fas {
+	    left: -100px;
+	}
+
+	header nav #address, header nav .skype {
+		position: relative;
+	    left: -100px;
+	    padding-right: 10px;
+	    margin-right: 10px;
+	}
+
+	header nav .phone {
+		position: relative;
+		left: -100px;
+	}
+
+	header nav .otherPhone {
+	    left: 22px;
+	}
+
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav .menu {
+		display: block;
+		cursor: pointer;
+		position: relative;
+    	top: -30px;
+    	width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		background: #000;
+	}
+
+	.carousel-item img {
+    	height: 500px;
+	}
+
+	.carousel li {
+	    top: -60px;
+	}
+
+	.carousel h1 {
+	    top: -110px;
+	    font-size: 160%;
+	}
+
+	.carousel p {
+	    top: -140px;
+	    font-size: 15px;
+	}
+}
+
+@media (max-width: 842px) and (min-width: 830px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 0px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 670px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    left: 350px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav .header-link {
+	    position: absolute;
+	    top: -10px;
+	    left: 75px;
+	    width: 30px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 135px;
+	    width: 99px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    left: 255px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 500px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -80px;
+	    font-size: 160%;
+	}
+
+	.carousel p {
+	    top: -110px;
+	    font-size: 15px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content h2 {
+	    font-size: 35px;
+	}
+
+	.content span {
+	    margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 830px) and (min-width: 787px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 30px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 630px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    left: 350px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav .header-link {
+	    position: absolute;
+	    top: -10px;
+	    left: 75px;
+	    width: 30px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 135px;
+	    width: 99px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    left: 255px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 500px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -80px;
+	    font-size: 160%;
+	}
+
+	.carousel p {
+	    top: -110px;
+	    font-size: 15px;
+	}
+}
+
+@media (max-width: 787px) and (min-width: 768px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 30px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 590px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    left: 350px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav .header-link {
+	    position: absolute;
+	    top: -10px;
+	    left: 75px;
+	    width: 30px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 135px;
+	    width: 99px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    left: 255px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 500px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -80px;
+	    font-size: 160%;
+	}
+
+	.carousel p {
+	    top: -110px;
+	    font-size: 15px;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 725px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 150px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 555px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 55px;
+	    left: 234px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 111px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 10px;
+	    left: 234px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 430px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -70px;
+	    font-size: 140%;
+	}
+
+	.carousel p {
+	    top: -110px;
+	    font-size: 13px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content span {
+	    margin-bottom: 50px;
+	}
+
+	.content h2 {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 273px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 725px) and (min-width: 670px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 150px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 500px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 55px;
+	    left: 234px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 111px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 10px;
+	    left: 234px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 430px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -70px;
+	    font-size: 140%;
+	}
+
+	.carousel p {
+	    top: -110px;
+	    font-size: 13px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content span {
+	    margin-bottom: 50px;
+	}
+
+	.content h2 {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 273px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 670px) and (min-width: 640px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 150px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 474px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 55px;
+	    left: 234px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 111px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 10px;
+	    left: 234px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 400px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -60px;
+	    font-size: 130%;
+	}
+
+	.carousel p {
+	    top: -90px;
+	    font-size: 12px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content span {
+	    margin-bottom: 50px;
+	}
+
+	.content h2 {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 250px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 640px) and (min-width: 630px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 150px;
+		width: 30px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 30px;
+	    left: 440px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 55px;
+	    left: 190px;
+	    width: 88px;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 10px;
+	    left: 190px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 400px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -60px;
+	    font-size: 130%;
+	}
+
+	.carousel p {
+	    top: -90px;
+	    font-size: 12px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content span {
+	    margin-bottom: 50px;
+	}
+
+	.content h2 {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 250px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 629px) and (min-width: 550px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav #logo img {
+	    height: 50px;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 110px;
+    	width: 130px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 20px;
+    	left: 390px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 40px;
+	    left: 189px;
+	    width: 88px;
+	    border-top: 1px solid;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 3px;
+	    left: 190px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 350px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -40px;
+    	font-size: 110%;
+	}
+
+	.carousel p {
+	    top: -80px;
+	    font-size: 12px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content span {
+		font-size: 13px;
+	    margin-bottom: 50px;
+	}
+
+	.content h2 {
+	    font-size: 25px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 250px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 550px) and (min-width: 425px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav #logo img {
+	    height: 50px;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 110px;
+    	width: 130px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 80px;
+    	left: 5px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 40px;
+	    left: 189px;
+	    width: 88px;
+	    border-top: 1px solid;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 3px;
+	    left: 190px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 350px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: -20px;
+    	font-size: 110%;
+	}
+
+	.carousel p {
+	    top: -65px;
+    	font-size: 10px;
+	}
+
+	.content {
+	    padding-top: 50px;
+	}
+
+	.content span {
+		font-size: 13px;
+	    margin-bottom: 50px;
+	}
+
+	.content h2 {
+	    font-size: 25px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 185px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 425px) and (min-width: 400px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav #logo img {
+	    height: 50px;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 110px;
+    	width: 130px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 80px;
+    	left: 5px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 40px;
+	    left: 189px;
+	    width: 88px;
+	    border-top: 1px solid;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 3px;
+	    left: 190px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 300px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: 20px;
+    	font-size: 85%;
+	}
+
+	.carousel p {
+	    top: -30px;
+    	font-size: 10px;
+	}
+
+	.content {
+	    padding-top: 30px;
+	}
+
+	.content span {
+		font-size: 9px;
+	    margin-bottom: 30px;
+	}
+
+	.content h2 {
+	    font-size: 20px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 100px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 400px) and (min-width: 390px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav #logo img {
+	    height: 50px;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 110px;
+    	width: 130px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 255px;
+    	left: 5px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 40px;
+	    left: 189px;
+	    width: 88px;
+	    border-top: 1px solid;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 3px;
+	    left: 190px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 300px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: 20px;
+    	font-size: 85%;
+	}
+
+	.carousel p {
+	    top: -30px;
+    	font-size: 10px;
+	}
+
+	.content {
+	    padding-top: 30px;
+	}
+
+	.content span {
+		font-size: 9px;
+	    margin-bottom: 30px;
+	}
+
+	.content h2 {
+	    font-size: 20px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 100px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 390px) and (min-width: 340px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav #logo img {
+	    height: 40px;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 80px;
+    	width: 130px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 255px;
+    	left: 5px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 40px;
+	    left: 189px;
+	    width: 88px;
+	    font-size: 9px;
+	    border-top: 1px solid;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+	    top: 3px;
+	    left: 190px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 300px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: 20px;
+    	font-size: 85%;
+	}
+
+	.carousel p {
+	    top: -30px;
+    	font-size: 10px;
+	}
+
+	.content {
+	    padding-top: 30px;
+	}
+
+	.content span {
+		font-size: 9px;
+	    margin-bottom: 30px;
+	}
+
+	.content h2 {
+	    font-size: 20px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 100px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+
+@media (max-width: 340px) and (min-width: 320px) {
+	header nav .footer-link {
+	    display: none;
+	}
+
+	header nav #logo img {
+	    height: 33px;
+	}
+
+	header nav {
+		border-right: 0px solid #d85968;
+		font-size: 12px;
+	}
+
+	header nav .header-link {
+		position: absolute;
+		left: 62px;
+    	top: -8px;
+    	width: 130px;
+	}
+
+	header nav .menu {
+	    display: block;
+	    cursor: pointer;
+	    position: absolute;
+	    top: 215px;
+    	left: 5px;
+	    width: 30px;
+	}
+
+	header nav .menu .dropdown-menu {
+		position: relative;
+		background: #000;
+	}
+
+	header nav #address, header nav .skype {
+		position: absolute;
+	    left: -118px;
+	    padding-right: 25px;
+	    margin-right: 25px;
+	    border-right: 0px solid #d85968;
+	}
+
+	header nav .phone {
+	    position: absolute;
+	    top: 40px;
+	    left: 189px;
+	    width: 88px;
+	    font-size: 9px;
+	    border-top: 1px solid;
+	}
+
+	header nav .otherPhone {
+	    left: 0px;
+	}
+
+	header nav #address {
+	    position: absolute;
+	    left: 90px;
+	    width: 123px;
+	}
+
+	header nav .skype {
+	    position: absolute;
+    	top: 9px;
+    	left: 190px;
+    	font-size: 10px;
+	}
+
+	header nav .header-link .fab,
+	header nav .header-link .fas {
+	    display: none;
+	}
+
+	header nav .fa-map-marker-alt {
+		left: 100px;
+	}
+
+	.carousel-item img {
+    	height: 260px;
+	}
+
+	.carousel li {
+	    top: -30px;
+	}
+
+	.carousel h1 {
+	    top: 20px;
+    	font-size: 85%;
+	}
+
+	.carousel p {
+	    top: -30px;
+    	font-size: 10px;
+	}
+
+	.content {
+	    padding-top: 30px;
+	}
+
+	.content span {
+		font-size: 9px;
+	    margin-bottom: 30px;
+	}
+
+	.content h2 {
+	    font-size: 20px;
+	    margin-bottom: 25px;
+	}
+
+	footer .menu {
+	    padding-top: 44px;
+	    padding-bottom: 50px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+
+	footer .contact {
+	    padding-top: 44px;
+	    padding-left: 100px;
+	    border: 1px solid #fff;
+	    margin-right: 0px;
+	}
+}
+      
+      </style>
